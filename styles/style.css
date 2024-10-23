@@ -11,7 +11,7 @@
 }
 
 .body-container{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
 }
@@ -125,15 +125,6 @@ nav ul li a{
     text-align: center;
     margin: 50px 0;
 }
-/* .product-container{
-    width: 80%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 30px;
-    align-items: center;
-    justify-content: center;
-} */
 
 .product-container{
     width: 100%;
@@ -192,7 +183,7 @@ nav ul li a{
 .see-more{
     color: #E02C6D;
     text-align: right;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -200,4 +191,42 @@ nav ul li a{
 .see-more i{
     margin-left: 10px;
     color: #E02C6D;
+}
+
+/* Products Card Section related styles End */
+
+/* Feature Product Section related styles Start */
+
+.feature{
+    display: flex;
+    align-items: center;
+}
+
+.feature-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-content{
+    width: 50%;
+}
+
+.feature-title{
+    font-size: 35px;
+    color: #0A0826;
+    font-weight: bold;
+}
+
+.feature-text{
+    width: 70%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #6C6C6C;
+    margin: 10px 0;
+}
+
+.feature-content button{
+    border-radius: 0;
 }
