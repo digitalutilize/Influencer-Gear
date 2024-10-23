@@ -109,8 +109,9 @@ nav ul li a{
 
 .sponsor{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 20px;
     padding: 35px 0;
     border-top: 1px solid rgb(240, 240, 240);
     border-bottom: 1px solid rgb(240, 240, 240);
@@ -229,4 +230,33 @@ nav ul li a{
 
 .feature-content button{
     border-radius: 0;
+}
+
+
+/* Footer Related Styles */
+
+footer{
+    background-color: #0A0826;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+}
+
+.footer-tile{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-text{
+    font-size: 14px;
+    font-weight: bold;
+    color: #D9DBE1;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
