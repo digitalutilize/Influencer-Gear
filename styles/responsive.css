@@ -1,5 +1,9 @@
 @media screen and (max-width:576px) {
     /* Nav & Banner Section */
+
+    .body-container{
+        width: 90%;
+    }
     nav{
         flex-direction: column;
         text-align: center;
@@ -35,16 +39,25 @@
     /* sponsor Section */
 
     .sponsor{
-        flex-direction: column;
-        gap: 50px;
+        flex-wrap: wrap;
+        gap: 20px;
     }
-    .sponsor img{
-        width: 50%;  
+
+    .product-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
     }
 
 }
 @media screen and (min-width:576.01px) and (max-width:768px) {
     /* Nav & Banner Section */
+
+    .body-container{
+        width: 90%;
+    }
+
     nav{
         flex-direction: column;
         text-align: center;
@@ -77,15 +90,25 @@
     /* sponsor Section */
 
     .sponsor{
-        flex-direction: column;
-        gap: 50px;
+        flex-wrap: wrap;
+        gap: 20px;
     }
-    .sponsor img{
-        width: 50%;  
+
+    
+    .product-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
     }
 
 }
 @media screen and (min-width:768.01px) and (max-width:992px) {
+
+    .body-container{
+        width: 90%;
+    }
+
     /* Nav & Banner Section */
     nav{
         flex-direction: column;
@@ -119,16 +142,25 @@
     /* sponsor Section */
 
     .sponsor{
-        flex-direction: column;
-        gap: 50px;
+        flex-wrap: wrap;
+        gap: 20px;
     }
 
-    .sponsor img{
-        width: 50%;  
+    
+    .product-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
     }
 
 }
 @media screen and (min-width:992.01px) and (max-width:1200px) {
+
+    .body-container{
+        width: 90%;
+    }
+
     /* Nav & Banner Section */
     nav{
         flex-direction: column;
@@ -158,8 +190,20 @@
         margin-bottom: 20px;
     }
 
+    
+    .product-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
 }
 @media screen and (min-width:1200.01px) and (max-width:1400px) {
+
+    .body-container{
+        width: 90%;
+    }
     /* Nav & Banner Section */
    
     nav ul{
@@ -182,4 +226,20 @@
         margin-bottom: 20px;
     }
 
+    .product-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 1400.01px) {
+    .product-container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
 }
