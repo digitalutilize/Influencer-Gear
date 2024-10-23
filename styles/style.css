@@ -26,6 +26,10 @@
     border-radius: 30px;
 }
 
+section{
+    margin: 50px 0;
+}
+
 
 /* Nav Related Styles Start */
 header{
@@ -94,7 +98,15 @@ nav ul li a{
     background-position: center;
     text-align: center;
 }
+/* banner related styles end */
 
-.banner-img img{
-    
+/* Sponsor Section related styles */
+
+.sponsor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 0;
+    border-top: 1px solid rgb(240, 240, 240);
+    border-bottom: 1px solid rgb(240, 240, 240);
 }
