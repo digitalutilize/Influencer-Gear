@@ -90,6 +90,10 @@ nav ul li a{
     margin: 15px 0;
 }
 
+.banner-content button i{
+    margin-left: 10px;
+}
+
 .banner-img{
     width: 50%;
     background-image: url('../images/Circle\ design.svg');
@@ -98,6 +102,7 @@ nav ul li a{
     background-position: center;
     text-align: center;
 }
+
 /* banner related styles end */
 
 /* Sponsor Section related styles */
@@ -120,7 +125,7 @@ nav ul li a{
     text-align: center;
     margin: 50px 0;
 }
-.product-container{
+/* .product-container{
     width: 80%;
     margin: 0 auto;
     display: grid;
@@ -128,6 +133,16 @@ nav ul li a{
     gap: 30px;
     align-items: center;
     justify-content: center;
+} */
+
+.product-container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .product-card{

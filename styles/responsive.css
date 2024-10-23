@@ -234,12 +234,3 @@
     }
 
 }
-
-@media screen and (min-width: 1400.01px) {
-    .product-container{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-    }
-}
